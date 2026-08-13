@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Website resmi KKN UNISNU XXI Desa Buaran, Kecamatan Mayong, Kabupaten Jepara tahun 2026. Program pengabdian masyarakat Universitas Islam Nahdlatul Ulama Jepara." />
+  <meta name="keywords" content="KKN UNISNU, Desa Buaran, Mayong, Jepara, 2026, KKN XXI" />
+  <title>KKN UNISNU XXI | Desa Buaran Mayong 2026</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <style>
+    .lucide {
+      width: 16px;
+      height: 16px;
+      stroke-width: 2;
+      vertical-align: middle;
+      flex-shrink: 0;
+    }
+
+    .lucide-lg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .lucide-xl {
+      width: 24px;
+      height: 24px;
+    }
+
+    .lucide-2xl {
+      width: 32px;
+      height: 32px;
+    }
+
+    .ql-icon .lucide {
+      width: 18px;
+      height: 18px;
+    }
+
+    .program-icon .lucide {
+      width: 26px;
+      height: 26px;
+      stroke-width: 1.5;
+    }
+
+    .kontak-icon-box .lucide {
+      width: 20px;
+      height: 20px;
+    }
+
+    .social-btn .lucide {
+      width: 16px;
+      height: 16px;
+    }
+
+    .slide-card-header .lucide {
+      width: 16px;
+      height: 16px;
+    }
+
+    .btn .lucide {
+      width: 15px;
+      height: 15px;
+    }
+
+    .brand-logo .lucide {
+      width: 28px;
+      height: 28px;
+      stroke: white;
+      stroke-width: 1.8;
+    }
+
+    .footer-logo-circle .lucide {
+      width: 24px;
+      height: 24px;
+      stroke: white;
+      stroke-width: 1.5;
+    }
+
+    .map-icon .lucide {
+      width: 48px;
+      height: 48px;
+      stroke-width: 1;
+      color: var(--green-mid);
+      opacity: 0.4;
+    }
+
+    .galeri-icon .lucide {
+      width: 40px;
+      height: 40px;
+      stroke-width: 1.2;
+    }
+
+    .berita-list-img .lucide {
+      width: 28px;
+      height: 28px;
+      stroke-width: 1.5;
+    }
+
+    .berita-img-placeholder .lucide {
+      width: 42px;
+      height: 42px;
+      stroke-width: 1;
+      opacity: 0.4;
+    }
+
+    /* Visi Misi icon box */
+    .visi-icon .lucide {
+      width: 22px;
+      height: 22px;
+      stroke-width: 1.8;
+      color: var(--green-dark);
+    }
+
+    .misi-icon .lucide {
+      width: 22px;
+      height: 22px;
+      stroke-width: 1.8;
+      color: #8a6500;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo_kkn_buaran.png" alt="Logo KKN" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-main">KKN UNISNU XXI · Desa Buaran 2026</div>
+          <div class="brand-tagline">Cendekia &amp; Berakhlaqul Karimah · Desa Buaran 2026</div>
+        </div>
+      </a>
+      <nav class="navbar-menu">
+        <a href="index.html#tentang" class="nav-link">Tentang</a>
+        <a href="index.html#berita" class="nav-link">Berita</a>
+        <a href="#anggota" class="nav-link">Anggota</a>
+        <a href="#galeri" class="nav-link">Galeri</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="https://script.google.com/macros/s/AKfycbz5Rh-T3c-iK3LRZjgQRZ6GI9ZZFUUmfP_cOYQfhEyOmd8P4GVSzposQPgDdigmBghn/exec"
+          id="btn-absensi" class="btn btn-green btn-sm" target="_blank">
+          <i data-lucide="clipboard-check"></i> Absensi
+        </a>
+        <button id="menu-toggle" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-nav">
+    <button class="mobile-nav-close" id="mobile-nav-close">
+      <i data-lucide="x"></i>
+    </button>
+    <a href="index.html#tentang" class="nav-link">Tentang</a>
+    <a href="index.html#berita" class="nav-link">Berita</a>
+    <a href="#anggota" class="nav-link">Anggota</a>
+    <a href="#galeri" class="nav-link">Galeri</a>
+    <a href="https://script.google.com/macros/s/AKfycbz5Rh-T3c-iK3LRZjgQRZ6GI9ZZFUUmfP_cOYQfhEyOmd8P4GVSzposQPgDdigmBghn/exec"
+      id="btn-absensi-mobile" class="nav-link" target="_blank">Absensi</a>
+    <a href="#kontak" class="nav-link">Kontak</a>
+  </div>
+
+  <!-- ===== HERO SLIDER ===== -->
+  <div class="hero-slider">
+    <!-- Slide 1 -->
+    <div class="slide active" id="slide-1">
+      <div class="slide-bg"></div>
+      <div class="slide-bg-pattern"></div>
+      <div class="container slide-content">
+        <div class="slide-left">
+          <div class="slide-tag">KKN Angkatan XXI · 2026</div>
+          <h1 class="slide-title">
+            Mengabdi dengan <span class="highlight">Tulus</span><br />
+            untuk Desa Buaran
+          </h1>
+          <p class="slide-desc">
+            Kuliah Kerja Nyata UNISNU XXI hadir di Desa Buaran, Kecamatan Mayong, Kabupaten Jepara.
+            Bersama warga, kami berinovasi untuk pemberdayaan masyarakat yang berkelanjutan.
+          </p>
+          <div class="slide-actions">
+            <a href="https://script.google.com/macros/s/AKfycbz5Rh-T3c-iK3LRZjgQRZ6GI9ZZFUUmfP_cOYQfhEyOmd8P4GVSzposQPgDdigmBghn/exec"
+              id="btn-absensi-hero" class="btn btn-outline-white btn-lg" target="_blank">
+              <i data-lucide="clipboard-check"></i> Absensi
+            </a>
+          </div>
+        </div>
+        <div class="slide-right">
+          <div class="slide-card">
+            <div class="slide-card-header">
+              <i data-lucide="map-pin"></i> Posko KKN UNISNU XXI
+            </div>
+            <div class="slide-info-grid">
+              <div class="slide-info-item">
+                <span class="slide-info-label">Universitas</span>
+                <span class="slide-info-value">UNISNU Jepara</span>
+              </div>
+              <div class="slide-info-item">
+                <span class="slide-info-label">Angkatan</span>
+                <span class="slide-info-value">XXI (21)</span>
+              </div>
+              <div class="slide-info-item">
+                <span class="slide-info-label">Desa</span>
+                <span class="slide-info-value">Buaran</span>
+              </div>
+              <div class="slide-info-item">
+                <span class="slide-info-label">Kecamatan</span>
+                <span class="slide-info-value">Mayong</span>
+              </div>
+              <div class="slide-info-item">
+                <span class="slide-info-label">Kabupaten</span>
+                <span class="slide-info-value">Jepara</span>
+              </div>
+              <div class="slide-info-item">
+                <span class="slide-info-label">Tahun</span>
+                <span class="slide-info-value">2026</span>
+              </div>
+            </div>
+            <div class="slide-stats">
+              <div class="slide-stat">
+                <div class="slide-stat-val">15</div>
+                <div class="slide-stat-lbl">Anggota</div>
+              </div>
+              <div class="slide-stat">
+                <div class="slide-stat-val">19</div>
+                <div class="slide-stat-lbl">Progja</div>
+              </div>
+              <div class="slide-stat">
+                <div class="slide-stat-val">40</div>
+                <div class="slide-stat-lbl">Hari KKN</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== QUICK LINKS ===== -->
+  <div class="quicklinks-bar">
+    <div class="container">
+      <div class="quicklinks">
+        <a href="#tentang" class="quicklink-item">
+          <div class="ql-icon"><i data-lucide="info"></i></div> Tentang KKN
+        </a>
+        <a href="https://script.google.com/macros/s/AKfycbz5Rh-T3c-iK3LRZjgQRZ6GI9ZZFUUmfP_cOYQfhEyOmd8P4GVSzposQPgDdigmBghn/exec"
+          id="btn-absensi-ql" class="quicklink-item" target="_blank">
+          <div class="ql-icon"><i data-lucide="clipboard-check"></i></div> Absensi
+        </a>
+        <a href="#anggota" class="quicklink-item">
+          <div class="ql-icon"><i data-lucide="users"></i></div> Anggota Tim
+        </a>
+        <a href="#galeri" class="quicklink-item">
+          <div class="ql-icon"><i data-lucide="image"></i></div> Galeri Foto
+        </a>
+        <a href="#kontak" class="quicklink-item">
+          <div class="ql-icon"><i data-lucide="phone"></i></div> Hubungi Kami
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== BERITA + AGENDA ===== -->
+  <section id="berita" class="section berita-agenda">
+    <div class="container">
+      <div class="berita-agenda-grid">
+        <!-- Berita -->
+        <div>
+          <div class="section-head-left">
+            <h2>Berita Kegiatan</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="berita-featured">
+            <a href="#" onclick="openPdfModal('pdf/BERITA ACARA PENERJUNAN.pdf'); return false;"
+              class="berita-card reveal" style="display:block; text-decoration:none; color:inherit;">
+              <div class="berita-img">
+                <img src="img/penerjunan.jpg" alt="Penerjunan KKN"
+                  style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="berita-card-body">
+                <div class="berita-date">
+                  <i data-lucide="calendar" style="width:12px;height:12px;"></i>
+                  27 Juli 2026 · 13.00 WIB
+                </div>
+                <div class="berita-card-title">Penerjunan Resmi KKN UNISNU XXI ke Desa Buaran oleh Dosen Pembimbing
+                  Lapangan
+                </div>
+              </div>
+            </a>
+
+            <a href="#" onclick="openPdfModal('pdf/BERITA ACARA BIMBEL.pdf'); return false;" class="berita-card reveal"
+              style="display:block; text-decoration:none; color:inherit;">
+              <div class="berita-img">
+                <img src="img/bimbel.jpg" alt="Penerjunan KKN" style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+              <div class="berita-card-body">
+                <div class="berita-date">
+                  <i data-lucide="calendar" style="width:12px;height:12px;"></i>
+                  27 Juli 2026 · 19.00 WIB
+                </div>
+                <div class="berita-card-title">KKN UNISNU XXI Buka Bimbingan Belajar Gratis Bagi Anak-Anak Kedungombo
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section id="tentang" class="section" style="background:white;">
+    <div class="container">
+      <div style="max-width:800px; margin:0 auto;">
+        <div class="reveal">
+          <div class="section-head-left" style="text-align: center;">
+            <div class="tag tag-green" style="margin-bottom:1rem; display:inline-block;">Tentang KKN</div>
+            <h2 style="font-size:clamp(1.5rem,2.8vw,2.2rem);">KKN UNISNU XXI<br /><span
+                style="color:var(--green-dark);">Desa Buaran, Mayong</span></h2>
+            <div class="underline" style="margin: 0.5rem auto 1.5rem auto;"></div>
+          </div>
+          <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.8;margin-bottom:1.5rem; text-align: center;">
+            Program Kuliah Kerja Nyata (KKN) Universitas Islam Nahdlatul Ulama (UNISNU) Jepara angkatan ke-XXI
+            ditempatkan di
+            <strong style="color:var(--green-dark);">Desa Buaran, Kecamatan Mayong, Kabupaten Jepara</strong>.
+            Program ini merupakan wujud nyata pengabdian mahasiswa kepada masyarakat berdasarkan nilai-nilai Islam
+            Nahdlatul Ulama.
+          </p>
+          <div style="display:flex;flex-direction:column;gap:0.875rem;">
+            <div
+              style="display:flex;gap:1rem;align-items:flex-start;padding:1rem;background:var(--green-subtle);border-radius:var(--radius);border:1px solid var(--border);">
+              <div class="visi-icon"
+                style="width:40px;height:40px;background:white;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:1px solid var(--border);">
+                <i data-lucide="target"></i>
+              </div>
+              <div>
+                <div style="font-weight:700;font-size:0.875rem;margin-bottom:0.2rem;">Visi</div>
+                <div style="font-size:0.82rem;color:var(--text-muted);">Menjadi agen perubahan yang memberdayakan
+                  masyarakat Desa Buaran menuju kehidupan mandiri dan berdaya saing.</div>
+              </div>
+            </div>
+            <div
+              style="display:flex;gap:1rem;align-items:flex-start;padding:1rem;background:var(--gold-pale);border-radius:var(--radius);border:1px solid #fde68a;">
+              <div class="misi-icon"
+                style="width:40px;height:40px;background:white;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:1px solid var(--border);">
+                <i data-lucide="star"></i>
+              </div>
+              <div>
+                <div style="font-weight:700;font-size:0.875rem;margin-bottom:0.2rem;">Misi</div>
+                <div style="font-size:0.82rem;color:var(--text-muted);">Melaksanakan program inovatif: memberdayakan
+                  UMKM lokal, meningkatkan kualitas pendidikan, kesehatan, dan lingkungan.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== ANGGOTA ===== -->
+  <section id="anggota" class="section anggota-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="tag tag-green" style="margin-bottom:0.875rem;">Team KKN</div>
+        <h2>Anggota KKN UNISNU XXI</h2>
+        <div class="underline"></div>
+        <p>Mahasiswa-mahasiswi UNISNU Jepara yang berdedikasi di Desa Buaran</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <img src="img/FIX ID CARD (1).jpg" alt="ID Card Ahmad Habibi"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-1">
+          <img src="img/FIX ID CARD.jpg" alt="ID Card Nur Rahmawati"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/7.jpg" alt="ID Card Siti Fatimah"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-3">
+          <img src="img/6.jpg" alt="ID Card Muhammad Ridho"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-1">
+          <img src="img/14.jpg" alt="ID Card Dewi Kartika"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/15.jpg" alt="ID Card Faisal Amin"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-3">
+          <img src="img/3.jpg" alt="ID Card Laila Rohmah"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-1">
+          <img src="img/2.jpg" alt="ID Card Abdul Nashir"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/1.jpg" alt="ID Card Yusuf Setiawan"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-3">
+          <img src="img/13.jpg" alt="ID Card Indah Novia"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-1">
+          <img src="img/9.jpg" alt="ID Card Rizki Hidayat"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/8.jpg" alt="ID Card Zulfah Auliya"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/10.jpg" alt="ID Card Zulfah Auliya"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/11.jpg" alt="ID Card Zulfah Auliya"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+        <div class="team-card reveal delay-2">
+          <img src="img/12.jpg" alt="ID Card Zulfah Auliya"
+            style="width:100%; display:block; border-radius:var(--radius-lg);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===== GALERI ===== -->
+  <section id="galeri" class="section galeri-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="tag tag-green" style="margin-bottom:0.875rem;">Galeri</div>
+        <h2>Dokumentasi Kegiatan</h2>
+        <div class="underline"></div>
+        <p>Abadikan setiap momen berharga KKN UNISNU XXI di Desa Buaran</p>
+      </div>
+      <div class="galeri-grid">
+        <div class="galeri-item reveal delay-1">
+          <img src="img/upara_penerjunan.jpg" alt="Upacara Penerjunan KKN"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Upacara Penerjunan KKN</div>
+            <div class="galeri-overlay-date">27 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-2">
+          <img src="img/penerjunan.jpg" alt="Penerjunan KKN di Balaidesa Buaran"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Penerjunan KKN di Balaidesa Buaran</div>
+            <div class="galeri-overlay-date">27 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-3">
+          <img src="img/sosialisasi_bimbel_sekolah.jpg" alt="Sosialisasi Bimbel ke Sekolahan"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Sosialisasi Bimbel ke Sekolahan</div>
+            <div class="galeri-overlay-date">28 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-4">
+          <img src="img/bimbel2.jpg" alt="Bimbel hari ke 2"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Bimbel Day 2</div>
+            <div class="galeri-overlay-date">28 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-5">
+          <img src="img/sowan_mbah_yai.jpg" alt="Sowan Kiyai"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Sowan K.H. M. Amir Wildan</div>
+            <div class="galeri-overlay-date">29 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-6">
+          <img src="img/sowan_rumah_rt.jpg" alt="Sowan Rumah RT"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Sowan Rumah RT</div>
+            <div class="galeri-overlay-date">30 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-7">
+          <img src="img/pendampingan_pramuka1.jpg" alt="Pendampingan Pramuka di SD 1 Buwaran"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Pendampingan Pramuka di SD 1 Buaran</div>
+            <div class="galeri-overlay-date">31 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-8">
+          <img src="img/pendampingan_pramuka2.jpg" alt="Pendampingan Pramuka di SD 1 Buwaran"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Pendampingan Pramuka di SD 1 Buaran</div>
+            <div class="galeri-overlay-date">31 Juli 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-9">
+          <img src="img/pembuatan_struktur_organisasi.jpeg" alt="Pembuatan Struktur Organisasi"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Pembuatan Struktur Organisasi KKN</div>
+            <div class="galeri-overlay-date">01 Agustus 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-10">
+          <img src="img/pemasangan_plang_posko.jpeg" alt="Pemasangan Plang Posko"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Pemasangan Plang Posko KKN</div>
+            <div class="galeri-overlay-date">02 Agustus 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-11">
+          <img src="img/sosialisasi_anti_bulyying.jpg" alt="Sosialisasi Anti Bullying di SDIT Manbaul Ulum"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Sosialisasi Anti Bullying di SDIT Manbaul Ulum</div>
+            <div class="galeri-overlay-date">03 Agustus 2026</div>
+          </div>
+        </div>
+        <div class="galeri-item reveal delay-12">
+          <img src="img/fotbar_anti_bullying.jpg" alt="Sosialisasi Anti Bullying di SDIT Manbaul Ulum"
+            style="width:100%; height:100%; object-fit:cover; display:block;">
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-title">Sosialisasi Anti Bullying di SDIT Manbaul Ulum</div>
+            <div class="galeri-overlay-date">03 Agustus 2026</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section id="kontak" class="section kontak-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="tag tag-green" style="margin-bottom:0.875rem;">Kontak</div>
+        <h2>Hubungi Kami</h2>
+        <div class="underline"></div>
+        <p>Ada pertanyaan? Silakan hubungi kami melalui informasi berikut</p>
+      </div>
+      <div class="kontak-grid">
+        <div>
+          <div class="kontak-item reveal delay-1">
+            <div class="kontak-icon-box"><i data-lucide="map-pin"></i></div>
+            <div class="kontak-text">
+              <h4>Lokasi Posko</h4>
+              <p>Desa Buaran, Rt 07 Rw 01, Kecamatan Mayong, Kabupaten Jepara, Jawa Tengah</p>
+            </div>
+          </div>
+          <div class="kontak-item reveal delay-2">
+            <div class="kontak-icon-box"><i data-lucide="message-circle"></i></div>
+            <div class="kontak-text">
+              <h4>WhatsApp Ketua</h4>
+              <p>+62 877-6784-3980 (Kormades)</p>
+            </div>
+          </div>
+          <div class="kontak-item reveal delay-3">
+            <div class="kontak-icon-box"><i data-lucide="mail"></i></div>
+            <div class="kontak-text">
+              <h4>Email</h4>
+              <p>kknbuaran10@gmail.com</p>
+            </div>
+          </div>
+          <div class="kontak-item reveal delay-1">
+            <div class="kontak-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                style="width:20px;height:20px;">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </div>
+            <div class="kontak-text">
+              <h4>Media Sosial</h4>
+              <p>@kkn.desabuaran2026</p>
+            </div>
+          </div>
+          <div class="kontak-item reveal delay-2">
+            <div class="kontak-icon-box"><i data-lucide="building-2"></i></div>
+            <div class="kontak-text">
+              <h4>UNISNU Jepara</h4>
+              <p>Jl. Taman Siswa No.9, Pekeng, Tahunan, Jepara 59427</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal" style="height: 100%;">
+          <div class="kontak-map" style="padding: 0; overflow: hidden; height: 100%; min-height: 350px;">
+            <iframe
+              src="https://maps.google.com/maps?q=Buaran,+Kec.+Mayong,+Kabupaten+Jepara,+Jawa+Tengah&t=&z=14&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="100%" style="border:0; display:block; min-height: 350px;" allowfullscreen=""
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-brand-logo">
+              <div class="footer-logo-circle"><i data-lucide="home"></i></div>
+              <div>
+                <div class="footer-brand-name">KKN UNISNU XXI</div>
+                <div class="footer-brand-sub">Desa Buaran · Mayong · Jepara · 2026</div>
+              </div>
+            </div>
+            <p class="footer-brand-desc">
+              Program Kuliah Kerja Nyata Universitas Islam Nahdlatul Ulama (UNISNU) Jepara,
+              kelompok XXI, di Desa Buaran, Kecamatan Mayong, Kabupaten Jepara.
+              <em>Cendekia dan Berakhlaqul Karimah.</em>
+            </p>
+            <div class="footer-socials">
+              <a href="https://maps.app.goo.gl/WuQjpLrwaH21JsH37" class="social-btn" title="Lokasi"><i
+                  data-lucide="map-pin"></i></a>
+              <a href="https://wa.me/6287767843980" class="social-btn" title="WhatsApp"><i
+                  data-lucide="message-circle"></i></a>
+              <a href="mailto:kknbuaran10@gmail.com" class="social-btn" title="Email"><i data-lucide="mail"></i></a>
+              <a href="https://www.instagram.com/kkn.desabuaran2026/" class="social-btn" title="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  style="display:inline-block; vertical-align:middle;">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-nav">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#tentang">Tentang KKN</a></li>
+              <li><a href="#berita">Berita Kegiatan</a></li>
+              <li><a href="#anggota">Anggota KKN</a></li>
+              <li><a href="#galeri">Galeri Foto</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <h4>Informasi</h4>
+            <ul>
+              <li><a href="#kontak">Kontak</a></li>
+              <li><a href="https://unisnu.ac.id" target="_blank">Website UNISNU</a></li>
+              <li><a href="#tentang">Visi &amp; Misi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom">
+        <p>© 2026 KKN UNISNU XXI Desa Buaran Mayong. Semua hak dilindungi.</p>
+        <p>Universitas Islam Nahdlatul Ulama (UNISNU) Jepara</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast">
+    <div class="toast-icon" id="toast-icon"></div>
+    <div class="toast-text" id="toast-text"></div>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <!-- Modal PDF Berita -->
+  <div class="modal-overlay" id="modal-pdf">
+    <div class="modal"
+      style="max-width:800px; width:90%; height:90vh; display:flex; flex-direction:column; padding:0; overflow:hidden;">
+      <div class="modal-header"
+        style="padding:1rem 1.5rem; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+        <h2 style="font-size:1.25rem; font-weight:700; color:var(--text); margin:0;">📄 Detail Berita</h2>
+        <button class="modal-close" onclick="closePdfModal()"
+          style="background:none; border:none; font-size:1.5rem; cursor:pointer;">✕</button>
+      </div>
+      <div class="modal-body" style="flex:1; padding:0;">
+        <iframe id="pdf-viewer" src="" style="width:100%; height:100%; border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+
+</html>
