@@ -755,10 +755,14 @@ input,textarea,select { font-family: var(--font-body); }
 }
 
 
+.kontak-grid .reveal { height: 100%; }
 .kontak-map {
   background: var(--green-pale); border: 1px solid var(--border);
   border-radius: var(--radius-lg); overflow: hidden;
-  height: 100%; min-height: 350px; display: block;
+  height: 100%; min-height: 350px; display: flex; flex-direction: column;
+}
+.kontak-map iframe {
+  width: 100% !important; height: 100% !important; min-height: inherit; flex: 1;
 }
 .map-inner { display: flex; flex-direction: column; align-items: center; gap: 1rem; text-align: center; padding: 2rem; }
 .map-inner .map-icon { font-size: 3rem; color: var(--green-mid); opacity: 0.5; }
